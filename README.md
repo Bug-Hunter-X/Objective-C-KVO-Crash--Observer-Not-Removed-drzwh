@@ -1,0 +1,1 @@
+This repository demonstrates a common Objective-C bug related to Key-Value Observing (KVO) and memory management. The `BuggyKVOSample.m` file shows the problematic code where an observer is not removed, leading to a retain cycle and potential crashes. The corrected version (`FixedKVOSample.m`) demonstrates the proper way to handle KVO to prevent these issues.
